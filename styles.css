@@ -1,72 +1,64 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 8;
-    padding: 10;
-    background-image: url"data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-    background-size: cover;
-    background-color: #DFDBE5;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-}
-
-header h1 {
+* {
     margin: 0;
-    display: inline;
-}
-
-nav ul {
-    list-style: none;
     padding: 0;
-    margin: 0;
-    display: inline;
+    border: 0;
+}
+   
+header {
+    background: #128;
+    padding: 50px 0;
+    border-bottom: 4px solid red;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-nav ul li a {
+h1 {
+    float: left;
     color: white;
-    text-decoration: none;
 }
 
-#about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
+p(
+    margin: 15px 0;
+    }
+    
+nav{
+    float: right;
 }
 
-#profile-image {
-    flex: 1;
-    margin-right: 2rem;
+nav a {
+    color: white;
+    font family: ariel;
+    font size: 24px;
+    margin right: 20px;
+    text decoration: none;
 }
 
-#bio {
-    flex: 2;
+main {
+    background-color: #224
+    float: left;
+    width: 70%;
+    padding: 20 px;
 }
 
 aside {
-    background-color: #f4f4f4;
-    padding: 1rem;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    width: 250px;
+   background color: white;
+   float: right;
+   width: 20%;
+   padding: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+       clear: both;
 }
+
+.main-content {
+    margin: 40px auto;
+}
+
+.profile-image {
+    float: left;
+    margin: 0 20 px 10px 0;
+    width: 200px;
