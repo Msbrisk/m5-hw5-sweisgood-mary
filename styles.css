@@ -4,7 +4,7 @@
     border: 0;
 }
 body {
-    background-image:url("../moroccan-flower(2).png");
+    background-image:url("../moroccan-flower (2).png");
 }
 
 header {
@@ -44,14 +44,14 @@ nav a {
 main {
     background-color: #224
     float: left;
-    width: 70%;
+    width: 60%;
     padding: 20px;
 }
 
 aside {
    background color: white;
    float: right;
-   width: 20%;
+   width: 15%;
    padding: 20px;
 }
 
