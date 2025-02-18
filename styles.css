@@ -78,8 +78,9 @@ footer {
     position: fixed;
     bottom: 0;
     background: #128;
-    width: 100%
+    width: 100%;
     text-align: center;
+    padding: 1rem;
 }
 
 footer p {
