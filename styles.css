@@ -61,6 +61,11 @@ aside ul {
     margin: 0;
 }
 
+aside ul li {
+    float: left; /* Float each list item to the left */
+    margin-right: 20px; /* Space between each social media icon */
+}
+
 footer {
     clear: both;
 }
