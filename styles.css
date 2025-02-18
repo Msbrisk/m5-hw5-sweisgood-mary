@@ -67,6 +67,7 @@ footer {
     float: left;
     margin: 0 20 px 10px 0;
     width: 200px;
+    padding: 20px;
 }
 
 aside img {
@@ -75,7 +76,7 @@ aside img {
 
 footer {
     position: fixed;
-    bottom0;
+    bottom: 0;
     background: #128;
     width: 100%
     text-align: center;
